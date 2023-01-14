@@ -190,7 +190,7 @@ ul li a{
 .sponsors_brand img{
     width: 130px;
     margin-left: 150px;
-    color: var(--section_description_color);
+    filter: grayscale(100%);
 }
 /* footer */
 footer{
