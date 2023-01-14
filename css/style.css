@@ -6,6 +6,7 @@
   --primary_color: #FF900E;
   --secondary_color: #FFFFFF;
   --nav_item_color: #424242;
+  --optional_color:#FFF4E7;
   /* font size */
   --section_title_font_size: 45px;
 
@@ -40,7 +41,7 @@ body {
     font-weight: 700;
     font-size: 65px;
 }
-section{
+section,footer{
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 130px;
@@ -66,7 +67,7 @@ header{
     margin: 0 auto;
 }
 .header{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: var(--optional_color);
 }
 /* nav start */
 nav{
@@ -176,6 +177,30 @@ ul li a{
     color: var(--section_description_color);
 }
 /* achievement style end */
+/* sponsors style star */
+.sponsors_area{
+    text-align: center;
+}
+.sponsors_description{
+    padding: 25px 0;
+}
+.sponsors_brand{
+    margin-top: 25px;
+}
+.sponsors_brand img{
+    width: 130px;
+    margin-left: 150px;
+    color: var(--section_description_color);
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: var(--optional_color);
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+/* sponsors style end */
 /* main style end */
 /* responsive style start*/
 /* mobile phone */
