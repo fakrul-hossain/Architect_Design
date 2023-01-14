@@ -26,6 +26,15 @@ body {
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+.btn:hover{
+    box-shadow:
+                1px 1px var(--primary_color),
+                2px 2px var(--primary_color),
+                3px 3px var(--primary_color);
+        transform: translateX(3px);
+        transition: 0.2s ease-in-out;
 }
 .big_title{
     font-weight: 700;
@@ -47,6 +56,7 @@ section{
 .section_description{
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
     color: var(--section_description_color);
 }
 /* main style start */
@@ -91,9 +101,6 @@ ul li a{
 }
 /* header section end */
 /* feature style start */
-.feature{
-
-}
 .feature_area{
     display: flex;
     gap: 70px;
@@ -120,6 +127,33 @@ ul li a{
     padding: 25px 0 50px 0;
 }
 /* feature style end */
+/* architect style start */
+.architect_area{
+    display: flex;
+    gap: 60px;
+}
+.architect_title::before{
+    content: '.';
+    width: 5px;
+    /* height: 106px; */
+    background-color: var(--primary_color);
+}
+.architect_description{
+    width: 586px;
+    padding: 25px 0 30px 0;
+    line-height: 26px;
+}
+.architect_sub_title{
+    margin-bottom: 10px;
+}
+.architect_sub_area{
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: var(--secondary_color);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+/* architect style end */
 /* main style end */
 /* responsive style start*/
 /* mobile phone */
