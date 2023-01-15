@@ -130,8 +130,10 @@ ul li a{
 /* feature style end */
 /* architect style start */
 .architect_area{
+    margin-top: 200px;
     display: flex;
     gap: 60px;
+    position: relative;
 }
 .architect_title::before{
     content: '.';
@@ -149,13 +151,85 @@ ul li a{
     margin-bottom: 10px;
 }
 .architect_sub_area{
+    max-width: 586px;
     margin-bottom: 20px;
     padding: 30px;
     background-color: var(--secondary_color);
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
+.architect_photo_album{
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+.architect_photo_album img{
+    width:700px;
+}
+.experience{
+    position: absolute;
+    background-color: var(--primary_color);
+    border-radius: 8px;
+    z-index: 1;
+    bottom: -10px;
+    left: -50px;
+}
+.experience_content{
+    padding: 45px;
+    text-align: center;
+}
+.experience_title{
+    font-size: 50px;
+}
 /* architect style end */
+/* consumer style start */
+.consumer_area{
+  
+    max-width: 900px;
+    margin: 0 auto;
+    /* text-align: center;  */
+}
+.consumer_title{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.consumer_content{
+    
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background-color: var(--secondary_color);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.consumer_content img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.consumer_description{
+    /* text-align: center; */
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.back_forward{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.back_forward i{
+    color: var(--nav_item_color);
+    margin-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+/* .back_forward i:hover{
+    border: 1px solid var(--primary_color);
+    padding: 3px 15px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+} */
+/* consumer style end */
 /* achievement style start */
 .achievement_description{
     padding: 24px 0;
