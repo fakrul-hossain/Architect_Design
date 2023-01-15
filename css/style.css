@@ -44,6 +44,9 @@ footer {
   margin: 0 auto;
   margin-top: 130px;
 }
+/* .hide{
+    display: none;
+} */
 .section_title {
   font-weight: 700;
   font-size: 45px;
@@ -128,7 +131,7 @@ ul li a {
 /* feature style end */
 /* architect style start */
 .architect_area {
-  margin-top: 200px;
+  /* margin-top: 200px; */
   display: flex;
   gap: 60px;
   position: relative;
@@ -158,19 +161,16 @@ ul li a {
 }
 .architect_photo_album {
   position: relative;
-  top: -30px;
-  left: 30px;
-}
-.architect_photo_album img {
-  width: 700px;
+  bottom: -170px;
+  left: 40px;
 }
 .experience {
   position: absolute;
   background-color: var(--primary_color);
   border-radius: 8px;
   z-index: 1;
-  bottom: -50px;
-  left: -50px;
+  bottom: 120px;
+  left: -70px;
 }
 .experience_content {
   padding: 45px;
@@ -219,12 +219,6 @@ ul li a {
   margin-left: 20px;
   transition: 0.5s ease-in-out;
 }
-/* .back_forward i:hover{
-    border: 1px solid var(--primary_color);
-    padding: 3px 15px;
-    border-radius: 5px;
-    transition: 0.5s ease-in-out;
-} */
 /* consumer style end */
 /* achievement style start */
 .achievement_description {
@@ -284,6 +278,14 @@ footer {
 /* responsive style start*/
 /* mobile phone */
 @media only screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    ul{
+        gap: 20px
+        ;
+    }
 }
 /* tablet and portrait device*/
 @media only screen and (min-width: 501px) and (max-width: 900px) {
