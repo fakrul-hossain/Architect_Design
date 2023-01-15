@@ -324,6 +324,9 @@ footer {
     width: 100%;
     text-align: center;
   }
+  .architect_description{
+    width: 100%;
+  }
   .architect_sub_area {
     max-width: 350px;
     margin: 0 auto;
