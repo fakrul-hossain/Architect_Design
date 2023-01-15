@@ -141,6 +141,7 @@ ul li a {
   content: "";
   padding: 0 0 50px 0;
   border: 5px solid var(--primary_color);
+  border-radius: 2px;
 }
 .architect_description {
   padding: 25px 0 30px 0;
@@ -278,11 +279,14 @@ footer {
   body {
     overflow-x: hidden;
   }
-  .lpt{
+  .lpt {
     padding: 0 10px;
   }
   section {
     margin-top: 100px;
+  }
+  .section_title {
+    font-size: 35px;
   }
   /* header responsive star*/
   nav {
@@ -317,6 +321,9 @@ footer {
     margin: 0;
     text-align: center;
   }
+  .feature_description {
+    padding-bottom: 30px;
+  }
   /* feature responsive end */
   /* architect responsive start*/
   .architect_area {
@@ -327,6 +334,9 @@ footer {
   .architect_content {
     width: 100%;
     text-align: center;
+  }
+  .architect_title {
+    text-align: start;
   }
   .architect_description {
     width: 100%;
@@ -341,8 +351,7 @@ footer {
     bottom: -30px;
   }
   .architect_photo_album img {
-    width: 400px;
-    height: 600px;
+    width: 80%;
   }
   .experience {
     bottom: -35px;
