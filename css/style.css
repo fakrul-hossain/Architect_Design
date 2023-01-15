@@ -13,6 +13,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -273,9 +274,16 @@ footer {
 /* responsive style start*/
 /* mobile phone */
 @media only screen and (max-width: 500px) {
-    section{
-        margin-top: 100px;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .lpt{
+    padding: 0 10px;
+  }
+  section {
+    margin-top: 100px;
+  }
   /* header responsive star*/
   nav {
     flex-direction: column;
@@ -320,7 +328,7 @@ footer {
     width: 100%;
     text-align: center;
   }
-  .architect_description{
+  .architect_description {
     width: 100%;
   }
   .architect_sub_area {
@@ -351,61 +359,61 @@ footer {
   }
   /* architect responsive end*/
   /* consumer responsive start */
-  .consumer_description{
+  .consumer_description {
     width: 300px;
     font-size: 14px;
   }
-  .back_forward{
+  .back_forward {
     font-size: 20px;
     margin-right: 10px;
   }
   /* consumer responsive end */
   /* achievement responsive start  */
-  .achievement_area{
+  .achievement_area {
     text-align: center;
   }
-  .achievement_details{
+  .achievement_details {
     margin-top: 38px;
     padding: 0px 118px;
     gap: 30px;
     flex-direction: column;
   }
-  .details_title{
+  .details_title {
     font-size: 28px;
   }
-  .details_sub_title{
+  .details_sub_title {
     font-size: 14px;
   }
   /* achievement responsive end */
   /* sponsors responsive start */
-  .sponsors_area{
-     width: 100%;
-    }
-    .sponsors_description{
-        width: 400px;
-        margin: 0 auto;
-    }
-    .sponsors_brand{
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        row-gap: 20px;
-        justify-content: center;
-    }
-    .sponsors_brand img{
-        width: 100px;
-        margin: 0;
-    }
+  .sponsors_area {
+    width: 100%;
+  }
+  .sponsors_description {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .sponsors_brand {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+  }
+  .sponsors_brand img {
+    width: 100px;
+    margin: 0;
+  }
   /* sponsors responsive end */
-footer{
+  footer {
     margin: 0;
     overflow: hidden;
     margin-top: 50px;
   }
-  .footer{
+  .footer {
     width: 100%;
   }
-  .footer_description{
+  .footer_description {
     font-size: 16px;
   }
 }
