@@ -137,14 +137,11 @@ ul li a {
   position: relative;
 }
 .architect_title::before {
-  content: ".";
-  width: 5px;
-  height: 106px;
-  /* height: 106px; */
-  background-color: var(--primary_color);
+  content: "";
+  padding: 0 0 50px 0;
+  border: 5px solid var(--primary_color);
 }
 .architect_description {
-  width: 586px;
   padding: 25px 0 30px 0;
   line-height: 26px;
 }
@@ -152,7 +149,6 @@ ul li a {
   margin-bottom: 10px;
 }
 .architect_sub_area {
-  max-width: 586px;
   margin-bottom: 20px;
   padding: 30px;
   background-color: var(--secondary_color);
@@ -182,7 +178,7 @@ ul li a {
 /* architect style end */
 /* consumer style start */
 .consumer_area {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 0 auto;
   /* text-align: center;  */
 }
@@ -338,6 +334,7 @@ footer {
   }
   .architect_photo_album img {
     width: 400px;
+    height: 600px;
   }
   .experience {
     bottom: -35px;
