@@ -400,12 +400,12 @@ footer {
 footer{
     margin: 0;
     overflow: hidden;
+    margin-top: 50px;
   }
   .footer{
     width: 100%;
   }
   .footer_description{
-    /* width: 400px; */
     font-size: 16px;
   }
 }
