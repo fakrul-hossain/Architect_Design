@@ -44,9 +44,9 @@ footer {
   margin: 0 auto;
   margin-top: 130px;
 }
-/* .hide{
+.hide{
     display: none;
-} */
+}
 .section_title {
   font-weight: 700;
   font-size: 45px;
@@ -278,6 +278,7 @@ footer {
 /* responsive style start*/
 /* mobile phone */
 @media only screen and (max-width: 500px) {
+    /* header responsive star*/
     nav{
         flex-direction: column;
         gap: 20px;
@@ -286,6 +287,68 @@ footer {
         gap: 20px
         ;
     }
+    .banner_img{
+        width: 95%;
+    }
+    .header_title{
+        font-size: 45px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    /* header responsive end*/
+    /* feature responsive start */
+    .feature_area{
+        flex-direction: column-reverse;
+    }
+    .feature_photo_album{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature_photo_album img{
+        margin: 0 auto;
+    }
+    .feature_content{
+        margin: 0;
+        text-align: center;
+    }
+    /* feature responsive end */
+    /* architect responsive start*/
+    .architect_area{
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+    .architect_content{
+        width: 100%;
+        text-align: center;
+    }
+    .architect_sub_area{
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .architect_photo_album{
+        width: 100%;
+        bottom: -30px;
+    }
+    .architect_photo_album img{
+        width: 400px;
+    }
+    .experience{
+        bottom: -35px;
+        left: -30px;
+    }
+    .experience_content{
+        padding: 25px;
+    }
+    .experience_title{
+        font-size: 25px;
+    }
+    .details_sub_title{
+        font-size: 16px;
+    }
+    /* architect responsive end*/
 }
 /* tablet and portrait device*/
 @media only screen and (min-width: 501px) and (max-width: 900px) {
